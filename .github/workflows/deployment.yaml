@@ -36,3 +36,6 @@ jobs:
 
     - name: Clean up
       run: rm tfplan
+
+    - name: destroy Terraform changes
+      run: terraform destroy --auto-approve
