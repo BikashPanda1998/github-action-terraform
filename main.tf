@@ -3,7 +3,7 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
    count=1
   tags = {
-    Name = "HelloWorld"
+    Name = "check with terraform"
     test = "dev"
   }
 }
